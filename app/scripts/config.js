@@ -89,7 +89,7 @@ export const physics = {
   arcade: {
     // debug: true,
     gravity: {
-      y: 400,
+      y: 600,
     },
   },
 

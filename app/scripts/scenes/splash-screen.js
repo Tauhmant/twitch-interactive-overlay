@@ -1,5 +1,6 @@
 import characterAnimationsFactory from '@/helpers/characterAnimationsFactory';
 import { createHolidayAnimations } from '@/helpers/holidayCharacterAnimationsFactory';
+import ducksAnimationFactory from '@/helpers/ducksAnimationFactory';
 import { loadAudio } from '../helpers/audioFactory';
 import Phaser from 'phaser';
 
@@ -44,6 +45,7 @@ export default class SplashScreen extends Phaser.Scene {
     this.load.image('logo', 'logo.png');
     this.load.multiatlas('characters', 'characters.json');
     this.load.multiatlas('holiday-characters', 'holiday-characters.json');
+    this.load.multiatlas('ducks', 'ducks.json');
     this.load.multiatlas('items', 'items.json');
     this.load.image('spiked_ball', 'spikedball.png');
 
@@ -61,6 +63,7 @@ export default class SplashScreen extends Phaser.Scene {
   create() {
     characterAnimationsFactory(this);
     createHolidayAnimations(this);
+    ducksAnimationFactory(this);
     //  We have nothing left to do here. Start the next scene.
     this.scene.start('Game');
   }

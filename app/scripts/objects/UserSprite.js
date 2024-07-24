@@ -6,12 +6,15 @@ import {
   PEASANT,
   KNIGHT,
   SKELETON,
-  SNOWMAN,
-  SANTA,
+  //SNOWMAN,
+  //SANTA,
+  DUCK_DEFAULT,
+  DUCK_PURPLE,
+  DUCK_BLUE,
 } from '@/constants/characters';
 import { getUserIntItem, setUserItem } from '@/helpers/PersistedStorage';
 
-const V_JUMP = -400;
+const V_JUMP = -200;
 const V_WALK = 100;
 const V_RUN = 200;
 
@@ -20,6 +23,10 @@ const WALK = 0;
 // const RUN = 1;
 // const JUMP = 2;
 
+function selectRandomDuck(array) {
+  return array[Math.floor(Math.random()*array.length)];
+}
+const ducksArray = [DUCK_DEFAULT, DUCK_PURPLE, DUCK_BLUE];
 export default class UserSprite extends BaseSprite {
   /**
       Potential cool physics body methods
@@ -125,8 +132,8 @@ export default class UserSprite extends BaseSprite {
 
     const spriteConfig = {
       scene: scene,
-      key: 'characters',
-      frame: 'peasant/standing/peasant.png',
+      key: 'ducks',
+      frame: 'duck_default/standing/duck_default.png',
       user: user,
       flags: flags,
     };
@@ -148,13 +155,17 @@ export default class UserSprite extends BaseSprite {
 
     this.type = 'user';
     // Default character type
-    this.changeCharacter(SNOWMAN);
 
+    const randomDuck = selectRandomDuck(ducksArray);
+    console.log(randomDuck);
+    this.changeCharacter(randomDuck);
     this.user = config.user;
     this.flags = config.flags;
 
     if (this.flags && this.flags.subscriber) {
-      this.changeCharacter(SANTA);
+      const randomDuck = selectRandomDuck(ducksArray);
+      console.log(randomDuck);
+      this.changeCharacter(randomDuck);
     }
 
     this.stillFrame = config.frame;

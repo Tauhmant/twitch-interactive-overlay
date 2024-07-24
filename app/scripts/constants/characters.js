@@ -5,3 +5,6 @@ export const WIZARD = 'wizard_2';
 export const SKELETON = 'skeleton';
 export const SANTA = 'santa';
 export const SNOWMAN = 'snowman';
+export const DUCK_DEFAULT = 'duck_default';
+export const DUCK_PURPLE = 'duck_purple';
+export const DUCK_BLUE = 'duck_blue';
