@@ -1,7 +1,7 @@
 /* eslint-disable no-unused-vars */
 import ComfyJS from 'comfy.js';
 import UserSprite from '../objects/UserSprite';
-import bitCreatorFactory from '../helpers/bitsCreatorFactory';
+//import bitCreatorFactory from '../helpers/bitsCreatorFactory';
 import { buildExplosion } from '../helpers/particleFactory';
 import TextBox from '../objects/TextBox';
 import * as chatCommandHandler from '../helpers/chatCommandHandler';
@@ -81,14 +81,14 @@ export default class Game extends Phaser.Scene {
 
     this.explosion = buildExplosion(this);
 
-    this.setupAudio();
+    //this.setupAudio();
     this.events.on('sceneEvent', this.onEvent, this);
   }
-
+  /*
   setupAudio() {
     audioFactory.addSoundToScene(this);
   }
-
+  */
   onEvent({ user, message, flags, method, args }) {
     const func = this[method];
     if (func) {
@@ -109,7 +109,7 @@ export default class Game extends Phaser.Scene {
    *  @param {number} dt Time elapsed since last update.
    */
   update(t, dt) {
-    bitCreatorFactory(this);
+    //bitCreatorFactory(this);
     // Call update on all sprites in our group
     this.userGroup.getChildren().forEach(user => {
       if (this.celebrate) {
@@ -129,7 +129,7 @@ export default class Game extends Phaser.Scene {
   }
 
   initComfy() {
-    const channel = phaserHelpers.getUrlParam('channel') || 'talk2megooseman';
+    const channel = phaserHelpers.getUrlParam('channel') || 'maroussia332';
     ComfyJS.Init(channel, null, [channel]);
 
     ComfyJS.onJoin = (user, self) => {
@@ -141,7 +141,7 @@ export default class Game extends Phaser.Scene {
     };
 
     ComfyJS.onPart = user => UserSprite.userParted(this.userGroup, user);
-
+    /*
     ComfyJS.onCommand = (user, command, message, flags, extra) => {
       chatCommandHandler.trigger(this, command, user, message, flags, extra);
 
@@ -154,43 +154,47 @@ export default class Game extends Phaser.Scene {
         audioFactory.playAudio(this, extraCommand, flags, extra);
       });
     };
+    */
 
     ComfyJS.onChat = (user, message, flags, self, extra) => {
       if (extra.customRewardId) {
-        this.sound.play('airhorn');
+        //this.sound.play('airhorn');
         channelPointsHandler.redeem(this, user, extra.customRewardId, message);
       }
-
+      /*
       if(message === 'talk2mHo talk2mNk') {
         this.sound.play('honk');
       }
-
+      */
       const sprite = this.addUserSprite(user, message, flags);
       if (sprite) {
         sprite.displayNameText();
         sprite.displaySpeechBubble(message, extra);
-
+        /*
         if (/^(hi|hey|hello|howdy)$/i.exec(message)) {
           this.sound.play('hello');
         }
+          */
       }
     };
 
+    /*
     ComfyJS.onCheer = (message, bits, extra) => {
       audioFactory.playAudio(this, 'cheer', { broadcaster: true });
       this.bitTotal += bits;
     };
+    */
 
-    ComfyJS.onHosted = () => audioFactory.playAudio(this, 'hosted', { broadcaster: true });
-    ComfyJS.onRaid = (user, viewers) => this.raidAlert(user, viewers);
-    ComfyJS.onSub = () => this.subCelebrate();
-    ComfyJS.onResub = () => this.subCelebrate();
-    ComfyJS.onSubGift = () => this.subCelebrate();
-    ComfyJS.onSubMysteryGift = () => audioFactory.playAudio(this, 'victory_short', { broadcaster: true });
-    ComfyJS.onGiftSubContinue = (user, sender, extra) =>
-      audioFactory.playAudio(this, 'victory_short', { broadcaster: true });
+    //ComfyJS.onHosted = () => audioFactory.playAudio(this, 'hosted', { broadcaster: true });
+    //ComfyJS.onRaid = (user, viewers) => this.raidAlert(user, viewers);
+    //ComfyJS.onSub = () => this.subCelebrate();
+    //ComfyJS.onResub = () => this.subCelebrate();
+    //ComfyJS.onSubGift = () => this.subCelebrate();
+    //ComfyJS.onSubMysteryGift = () => audioFactory.playAudio(this, 'victory_short', { broadcaster: true });
+    //ComfyJS.onGiftSubContinue = (user, sender, extra) =>
+    //  audioFactory.playAudio(this, 'victory_short', { broadcaster: true });
   }
-
+  /*
   raidAlert(user = 'The Goose', viewers = '50') {
     audioFactory.playAudio(this, 'raid_alert', { broadcaster: true });
     this.time.delayedCall(2500, () => {
@@ -222,18 +226,19 @@ export default class Game extends Phaser.Scene {
       const y = Phaser.Math.Between(0, this.game.config.height / 2);
       this.time.delayedCall(index * 500, () => {
         this.explosion.emitParticleAt(x, y);
-        audioFactory.playAudio(this, 'explode', { broadcaster: true });
+        //audioFactory.playAudio(this, 'explode', { broadcaster: true });
       });
     }
   }
 
   reverseGravity() {
     this.physics.world.gravity.y = -400;
-    audioFactory.playAudio(this, 'scream', { broadcaster: true });
+    //audioFactory.playAudio(this, 'scream', { broadcaster: true });
     this.time.delayedCall(60 * 1000, () => {
       this.physics.world.gravity.y = 400;
     });
   }
+    */
 
   addUserSprite(user, message, flags) {
     const sprite = UserSprite.createOrFindUser(this.userGroup, this, user, flags);
@@ -241,6 +246,7 @@ export default class Game extends Phaser.Scene {
     return sprite;
   }
 
+  /*
   addSpikedBall() {
     new SpikedBall(this);
   }
@@ -259,6 +265,7 @@ export default class Game extends Phaser.Scene {
     userSprite.coinCollected(coinSprite.amount);
     coinSprite.grabbed();
   }
+  */
 
   onTextOverlap(s1, s2) {}
 
@@ -281,6 +288,7 @@ export default class Game extends Phaser.Scene {
     }
   }
 
+  /*
   displayControls() {
     this.displayTextbox('~~ CONTROLS ~~', chatCommandHandler.COMMANDS);
   }
@@ -315,7 +323,7 @@ export default class Game extends Phaser.Scene {
       loop: false,
     });
   }
-
+*/
   clearBrowserStorage() {
     clear();
   }

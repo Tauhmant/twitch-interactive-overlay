@@ -4,7 +4,7 @@
 			"image": "ducks.png",
 			"format": "RGBA8888",
 			"size": {
-				"w": 450,
+				"w": 1050,
 				"h": 110
 			},
 			"scale": 1,
@@ -319,6 +319,426 @@
 					},
 					"frame": {
 						"x": 300,
+						"y": 0,
+						"w": 150,
+						"h": 110
+					}
+				},
+        {
+					"filename": "duck_pink/standing/duck_pink.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 150,
+						"h": 110
+					},
+					"spriteSourceSize": {
+						"x": 450,
+						"y": 0,
+						"w": 150,
+						"h": 110
+					},
+					"frame": {
+						"x": 450,
+						"y": 0,
+						"w": 150,
+						"h": 110
+					}
+				},
+        {
+					"filename": "duck_pink/walk/duck_pink_walk_001.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 150,
+						"h": 110
+					},
+					"spriteSourceSize": {
+						"x": 450,
+						"y": 0,
+						"w": 150,
+						"h": 110
+					},
+					"frame": {
+						"x": 450,
+						"y": 0,
+						"w": 150,
+						"h": 110
+					}
+				},
+        {
+					"filename": "duck_pink/run/duck_pink_run_001.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 150,
+						"h": 110
+					},
+					"spriteSourceSize": {
+						"x": 450,
+						"y": 0,
+						"w": 150,
+						"h": 110
+					},
+					"frame": {
+						"x": 450,
+						"y": 0,
+						"w": 150,
+						"h": 110
+					}
+				},
+        {
+					"filename": "duck_pink/jump/duck_pink_jump_001.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 150,
+						"h": 110
+					},
+					"spriteSourceSize": {
+						"x": 450,
+						"y": 0,
+						"w": 150,
+						"h": 110
+					},
+					"frame": {
+						"x": 450,
+						"y": 0,
+						"w": 150,
+						"h": 110
+					}
+				},
+        {
+					"filename": "duck_pink/die/duck_pink_die_001.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 150,
+						"h": 110
+					},
+					"spriteSourceSize": {
+						"x": 450,
+						"y": 0,
+						"w": 150,
+						"h": 110
+					},
+					"frame": {
+						"x": 450,
+						"y": 0,
+						"w": 150,
+						"h": 110
+					}
+				},
+        {
+					"filename": "duck_kitty/standing/duck_kitty.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 150,
+						"h": 110
+					},
+					"spriteSourceSize": {
+						"x": 600,
+						"y": 0,
+						"w": 150,
+						"h": 110
+					},
+					"frame": {
+						"x": 600,
+						"y": 0,
+						"w": 150,
+						"h": 110
+					}
+				},
+        {
+					"filename": "duck_kitty/walk/duck_kitty_walk_001.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 150,
+						"h": 110
+					},
+					"spriteSourceSize": {
+						"x": 600,
+						"y": 0,
+						"w": 150,
+						"h": 110
+					},
+					"frame": {
+						"x": 600,
+						"y": 0,
+						"w": 150,
+						"h": 110
+					}
+				},
+        {
+					"filename": "duck_kitty/run/duck_kitty_run_001.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 150,
+						"h": 110
+					},
+					"spriteSourceSize": {
+						"x": 600,
+						"y": 0,
+						"w": 150,
+						"h": 110
+					},
+					"frame": {
+						"x": 600,
+						"y": 0,
+						"w": 150,
+						"h": 110
+					}
+				},
+        {
+					"filename": "duck_kitty/jump/duck_kitty_jump_001.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 150,
+						"h": 110
+					},
+					"spriteSourceSize": {
+						"x": 600,
+						"y": 0,
+						"w": 150,
+						"h": 110
+					},
+					"frame": {
+						"x": 600,
+						"y": 0,
+						"w": 150,
+						"h": 110
+					}
+				},
+        {
+					"filename": "duck_kitty/die/duck_kitty_die_001.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 150,
+						"h": 110
+					},
+					"spriteSourceSize": {
+						"x": 600,
+						"y": 0,
+						"w": 150,
+						"h": 110
+					},
+					"frame": {
+						"x": 600,
+						"y": 0,
+						"w": 150,
+						"h": 110
+					}
+				},
+        {
+					"filename": "duck_green/standing/duck_green.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 150,
+						"h": 110
+					},
+					"spriteSourceSize": {
+						"x": 750,
+						"y": 0,
+						"w": 150,
+						"h": 110
+					},
+					"frame": {
+						"x": 750,
+						"y": 0,
+						"w": 150,
+						"h": 110
+					}
+				},
+        {
+					"filename": "duck_green/walk/duck_green_walk_001.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 150,
+						"h": 110
+					},
+					"spriteSourceSize": {
+						"x": 750,
+						"y": 0,
+						"w": 150,
+						"h": 110
+					},
+					"frame": {
+						"x": 750,
+						"y": 0,
+						"w": 150,
+						"h": 110
+					}
+				},
+        {
+					"filename": "duck_green/run/duck_green_run_001.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 150,
+						"h": 110
+					},
+					"spriteSourceSize": {
+						"x": 750,
+						"y": 0,
+						"w": 150,
+						"h": 110
+					},
+					"frame": {
+						"x": 750,
+						"y": 0,
+						"w": 150,
+						"h": 110
+					}
+				},
+        {
+					"filename": "duck_green/jump/duck_green_jump_001.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 150,
+						"h": 110
+					},
+					"spriteSourceSize": {
+						"x": 750,
+						"y": 0,
+						"w": 150,
+						"h": 110
+					},
+					"frame": {
+						"x": 750,
+						"y": 0,
+						"w": 150,
+						"h": 110
+					}
+				},
+        {
+					"filename": "duck_green/die/duck_green_die_001.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 150,
+						"h": 110
+					},
+					"spriteSourceSize": {
+						"x": 750,
+						"y": 0,
+						"w": 150,
+						"h": 110
+					},
+					"frame": {
+						"x": 750,
+						"y": 0,
+						"w": 150,
+						"h": 110
+					}
+				},
+        {
+					"filename": "duck_reaper/standing/duck_reaper.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 150,
+						"h": 110
+					},
+					"spriteSourceSize": {
+						"x": 900,
+						"y": 0,
+						"w": 150,
+						"h": 110
+					},
+					"frame": {
+						"x": 900,
+						"y": 0,
+						"w": 150,
+						"h": 110
+					}
+				},
+        {
+					"filename": "duck_reaper/walk/duck_reaper_walk_001.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 150,
+						"h": 110
+					},
+					"spriteSourceSize": {
+						"x": 900,
+						"y": 0,
+						"w": 150,
+						"h": 110
+					},
+					"frame": {
+						"x": 900,
+						"y": 0,
+						"w": 150,
+						"h": 110
+					}
+				},
+        {
+					"filename": "duck_reaper/run/duck_reaper_run_001.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 150,
+						"h": 110
+					},
+					"spriteSourceSize": {
+						"x": 900,
+						"y": 0,
+						"w": 150,
+						"h": 110
+					},
+					"frame": {
+						"x": 900,
+						"y": 0,
+						"w": 150,
+						"h": 110
+					}
+				},
+        {
+					"filename": "duck_reaper/jump/duck_reaper_jump_001.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 150,
+						"h": 110
+					},
+					"spriteSourceSize": {
+						"x": 900,
+						"y": 0,
+						"w": 150,
+						"h": 110
+					},
+					"frame": {
+						"x": 900,
+						"y": 0,
+						"w": 150,
+						"h": 110
+					}
+				},
+        {
+					"filename": "duck_reaper/die/duck_reaper_die_001.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 150,
+						"h": 110
+					},
+					"spriteSourceSize": {
+						"x": 900,
+						"y": 0,
+						"w": 150,
+						"h": 110
+					},
+					"frame": {
+						"x": 900,
 						"y": 0,
 						"w": 150,
 						"h": 110

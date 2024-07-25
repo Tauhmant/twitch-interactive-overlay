@@ -11,6 +11,10 @@ import {
   DUCK_DEFAULT,
   DUCK_PURPLE,
   DUCK_BLUE,
+  DUCK_PINK,
+  DUCK_KITTY,
+  DUCK_GREEN,
+  DUCK_REAPER,
 } from '@/constants/characters';
 import { getUserIntItem, setUserItem } from '@/helpers/PersistedStorage';
 
@@ -26,7 +30,7 @@ const WALK = 0;
 function selectRandomDuck(array) {
   return array[Math.floor(Math.random()*array.length)];
 }
-const ducksArray = [DUCK_DEFAULT, DUCK_PURPLE, DUCK_BLUE];
+const ducksArray = [DUCK_DEFAULT, DUCK_PURPLE, DUCK_BLUE, DUCK_PINK, DUCK_KITTY, DUCK_GREEN, DUCK_REAPER];
 export default class UserSprite extends BaseSprite {
   /**
       Potential cool physics body methods

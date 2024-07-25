@@ -1,4 +1,4 @@
-const DUCKS = ['duck_default', 'duck_purple', 'duck_blue'];
+const DUCKS = ['duck_default', 'duck_purple', 'duck_blue', 'duck_pink', 'duck_kitty', 'duck_green', 'duck_reaper'];
 
 function createStandingAnimation(duck, scene) {
   var frameNames = [{
