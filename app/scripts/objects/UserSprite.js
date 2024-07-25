@@ -3,11 +3,6 @@ import Phaser from 'phaser';
 import BaseSprite from '@/objects/BaseSprite';
 import SpeechBubble from '@/objects/SpeechBubble';
 import {
-  PEASANT,
-  KNIGHT,
-  SKELETON,
-  //SNOWMAN,
-  //SANTA,
   DUCK_DEFAULT,
   DUCK_PURPLE,
   DUCK_BLUE,
@@ -266,14 +261,14 @@ export default class UserSprite extends BaseSprite {
       this.jump();
     });
   }
-
+  /*
   setFlags(flags) {
     this.flags = flags;
     if (flags.subscriber && this.character === PEASANT) {
       this.changeCharacter(KNIGHT);
     }
   }
-
+  */
   changeCharacter(character) {
     this.character = character;
   }
@@ -362,14 +357,15 @@ export default class UserSprite extends BaseSprite {
     }
   }
 
-  sendFlyingOnCollide({ skeleton }) {
+  sendFlyingOnCollide() {
     this.body.setVelocityY(V_JUMP * 2 * this.gravityModifier);
-
+    /*
     if (skeleton && !this.knitCodeMonkeyState) {
       this.knitCodeMonkeyState = true;
       this.ogCharacter = this.character;
       this.changeCharacter(SKELETON);
     }
+      */
   }
 
   makeDbag() {

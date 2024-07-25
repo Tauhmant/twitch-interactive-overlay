@@ -3,15 +3,15 @@ import ComfyJS from 'comfy.js';
 import UserSprite from '../objects/UserSprite';
 //import bitCreatorFactory from '../helpers/bitsCreatorFactory';
 import { buildExplosion } from '../helpers/particleFactory';
-import TextBox from '../objects/TextBox';
-import * as chatCommandHandler from '../helpers/chatCommandHandler';
+//import TextBox from '../objects/TextBox';
+//import * as chatCommandHandler from '../helpers/chatCommandHandler';
 import * as channelPointsHandler from '../helpers/channelPointsHandler';
-import * as audioFactory from '../helpers/audioFactory';
+//import * as audioFactory from '../helpers/audioFactory';
 import * as phaserHelpers from '../helpers/phaserHelpers';
-import SpikedBall from '../objects/SpikedBall';
+//import SpikedBall from '../objects/SpikedBall';
 import { clear } from '../helpers/PersistedStorage';
 import Phaser from 'phaser';
-import { debug } from '../config';
+//import { debug } from '../config';
 
 // giftsub VIA robertables - lurking_kat
 // Resub - DannyKampsGamez
