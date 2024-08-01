@@ -4,13 +4,15 @@ import UserSprite from '../objects/UserSprite';
 //import bitCreatorFactory from '../helpers/bitsCreatorFactory';
 import { buildExplosion } from '../helpers/particleFactory';
 //import TextBox from '../objects/TextBox';
-//import * as chatCommandHandler from '../helpers/chatCommandHandler';
+import * as chatCommandHandler from '../helpers/chatCommandHandler';
 import * as channelPointsHandler from '../helpers/channelPointsHandler';
 //import * as audioFactory from '../helpers/audioFactory';
 import * as phaserHelpers from '../helpers/phaserHelpers';
 //import SpikedBall from '../objects/SpikedBall';
 import { clear } from '../helpers/PersistedStorage';
 import Phaser from 'phaser';
+import selectRandomDuck from '../objects/UserSprite';
+import ducksArray from '../objects/UserSprite';
 //import { debug } from '../config';
 
 // giftsub VIA robertables - lurking_kat
@@ -141,20 +143,20 @@ export default class Game extends Phaser.Scene {
     };
 
     ComfyJS.onPart = user => UserSprite.userParted(this.userGroup, user);
-    /*
+
     ComfyJS.onCommand = (user, command, message, flags, extra) => {
       chatCommandHandler.trigger(this, command, user, message, flags, extra);
 
-      audioFactory.playAudio(this, command, flags, extra);
+      //audioFactory.playAudio(this, command, flags, extra);
 
       // Support multiple commands
       const chainedCommands = phaserHelpers.extractCommands(message);
       chainedCommands.forEach(extraCommand => {
         chatCommandHandler.trigger(this, extraCommand, user, message, flags, extra);
-        audioFactory.playAudio(this, extraCommand, flags, extra);
+        //audioFactory.playAudio(this, extraCommand, flags, extra);
       });
     };
-    */
+
 
     ComfyJS.onChat = (user, message, flags, self, extra) => {
       if (extra.customRewardId) {
@@ -177,6 +179,8 @@ export default class Game extends Phaser.Scene {
           */
       }
     };
+
+
 
     /*
     ComfyJS.onCheer = (message, bits, extra) => {
@@ -244,6 +248,13 @@ export default class Game extends Phaser.Scene {
     const sprite = UserSprite.createOrFindUser(this.userGroup, this, user, flags);
     sprite.walk();
     return sprite;
+  }
+
+  changeDuck(user, message, flags) {
+    const sprite = UserSprite.createOrFindUser(this.userGroup, this, user, flags);
+    const randomDuck = selectRandomDuck(ducksArray);
+    console.log(randomDuck);
+    sprite.changeCharacter(randomDuck);
   }
 
   /*

@@ -1,7 +1,7 @@
 import { canTriggerCommand } from './phaserHelpers';
 
 export const COMMANDS = [
-  {
+/*  {
     command: 'run',
     method: 'startRunning',
     event: 'userChatAction',
@@ -135,6 +135,11 @@ export const COMMANDS = [
     method: 'textToSpeech',
     event: 'sceneEvent',
     private: true,
+  }, */
+  {
+    command: 'поменятьутку',
+    method: 'changeDuck',
+    event: 'userChatAction',
   },
 ];
 
