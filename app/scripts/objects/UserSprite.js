@@ -261,14 +261,16 @@ export default class UserSprite extends BaseSprite {
       this.jump();
     });
   }
-  /*
+
   setFlags(flags) {
     this.flags = flags;
-    if (flags.subscriber && this.character === PEASANT) {
-      this.changeCharacter(KNIGHT);
+    const randomDuck = selectRandomDuck(ducksArray);
+    console.log(randomDuck);
+    if (flags.subscriber && this.character === DUCK_DEFAULT) {
+      this.changeCharacter(randomDuck);
     }
   }
-  */
+
   changeCharacter(character) {
     this.character = character;
   }
