@@ -13,6 +13,7 @@ import { clear } from '../helpers/PersistedStorage';
 import Phaser from 'phaser';
 import selectRandomDuck from '../objects/UserSprite';
 import ducksArray from '../objects/UserSprite';
+import constructor from '../objects/UserSprite';
 //import { debug } from '../config';
 
 // giftsub VIA robertables - lurking_kat
@@ -250,11 +251,10 @@ export default class Game extends Phaser.Scene {
     return sprite;
   }
 
-  changeDuck(user, message, flags) {
+  changeDuck(user, flags) {
     const sprite = UserSprite.createOrFindUser(this.userGroup, this, user, flags);
-    const randomDuck = selectRandomDuck(ducksArray);
-    console.log(randomDuck);
-    sprite.changeCharacter(randomDuck);
+    constructor(sprite);
+    return sprite;
   }
 
   /*
