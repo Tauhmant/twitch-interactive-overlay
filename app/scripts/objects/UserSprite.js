@@ -265,7 +265,7 @@ export default class UserSprite extends BaseSprite {
   setFlags(flags) {
     this.flags = flags;
     const randomDuck = selectRandomDuck(ducksArray);
-    console.log(randomDuck);
+    console.log('set flags ', randomDuck);
     if (flags.subscriber && this.character === DUCK_DEFAULT) {
       this.changeCharacter(randomDuck);
     }

@@ -253,7 +253,9 @@ export default class Game extends Phaser.Scene {
 
   changeDuck(user, flags) {
     const sprite = UserSprite.createOrFindUser(this.userGroup, this, user, flags);
-    constructor(sprite);
+    const randomDuck = selectRandomDuck(ducksArray);
+    console.log('change to', randomDuck);
+    sprite.changeCharacter(randomDuck);
     return sprite;
   }
 
