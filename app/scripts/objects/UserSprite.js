@@ -386,6 +386,13 @@ export default class UserSprite extends BaseSprite {
     this.body.setImmovable(false);
   }
 
+  changeDuck(user, message, flags) {
+    const sprite = UserSprite.createOrFindUser(this.userGroup, this, user, flags);
+    const randomDuck = selectRandomDuck(ducksArray);
+    console.log('change to', randomDuck);
+    sprite.changeCharacter(randomDuck);
+  }
+
   /**
    * Tackles an @mentioned user
    *

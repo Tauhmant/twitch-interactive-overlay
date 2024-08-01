@@ -11,9 +11,9 @@ import * as phaserHelpers from '../helpers/phaserHelpers';
 //import SpikedBall from '../objects/SpikedBall';
 import { clear } from '../helpers/PersistedStorage';
 import Phaser from 'phaser';
-import selectRandomDuck from '../objects/UserSprite';
-import ducksArray from '../objects/UserSprite';
-import constructor from '../objects/UserSprite';
+//import selectRandomDuck from '../objects/UserSprite';
+//import ducksArray from '../objects/UserSprite';
+//import constructor from '../objects/UserSprite';
 //import { debug } from '../config';
 
 // giftsub VIA robertables - lurking_kat
@@ -248,14 +248,6 @@ export default class Game extends Phaser.Scene {
   addUserSprite(user, message, flags) {
     const sprite = UserSprite.createOrFindUser(this.userGroup, this, user, flags);
     sprite.walk();
-    return sprite;
-  }
-
-  changeDuck(user, flags) {
-    const sprite = UserSprite.createOrFindUser(this.userGroup, this, user, flags);
-    const randomDuck = selectRandomDuck(ducksArray);
-    console.log('change to', randomDuck);
-    sprite.changeCharacter(randomDuck);
     return sprite;
   }
 
