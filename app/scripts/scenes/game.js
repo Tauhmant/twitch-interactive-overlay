@@ -2,7 +2,7 @@
 import ComfyJS from 'comfy.js';
 import UserSprite from '../objects/UserSprite';
 //import bitCreatorFactory from '../helpers/bitsCreatorFactory';
-import { buildExplosion } from '../helpers/particleFactory';
+//import { buildExplosion } from '../helpers/particleFactory';
 //import TextBox from '../objects/TextBox';
 import * as chatCommandHandler from '../helpers/chatCommandHandler';
 import * as channelPointsHandler from '../helpers/channelPointsHandler';
@@ -82,7 +82,7 @@ export default class Game extends Phaser.Scene {
       this.onCollision(sprite1, sprite2)
     );
 
-    this.explosion = buildExplosion(this);
+    //this.explosion = buildExplosion(this);
 
     //this.setupAudio();
     this.events.on('sceneEvent', this.onEvent, this);
