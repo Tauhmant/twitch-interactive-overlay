@@ -8,3 +8,8 @@ yarn lint      # Checks scripts for lint issues using ESLint.
 yarn dev
 yarn build
 ```
+```sh
+git add .
+git commit -m " "
+git push origin master -f
+```
