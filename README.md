@@ -3,6 +3,7 @@
 https://tauhmant.github.io/twitch-interactive-overlay/?channel=maroussia332
 
 ```sh
+yarn           #first time install
 yarn format    # Uses ESLint to format and remove lint issues.
 yarn lint      # Checks scripts for lint issues using ESLint.
 yarn dev
