@@ -26,8 +26,7 @@
     "vite": "^6.1.0"
   },
   "resolutions": {
-  "vite/esbuild": "0.25.0"
-},
-
+    "vite/esbuild": "0.25.0"
+  },
   "private": true
 }
