@@ -325,7 +325,7 @@
 					}
 				},
         {
-					"filename": "duck_pink/standing/duck_pink.png",
+					"filename": "duck_knife/standing/duck_knife.png",
 					"rotated": false,
 					"trimmed": false,
 					"sourceSize": {
@@ -346,7 +346,7 @@
 					}
 				},
         {
-					"filename": "duck_pink/walk/duck_pink_walk_001.png",
+					"filename": "duck_knife/walk/duck_knife_walk_001.png",
 					"rotated": false,
 					"trimmed": false,
 					"sourceSize": {
@@ -367,7 +367,7 @@
 					}
 				},
         {
-					"filename": "duck_pink/run/duck_pink_run_001.png",
+					"filename": "duck_knife/run/duck_knife_run_001.png",
 					"rotated": false,
 					"trimmed": false,
 					"sourceSize": {
@@ -388,7 +388,7 @@
 					}
 				},
         {
-					"filename": "duck_pink/jump/duck_pink_jump_001.png",
+					"filename": "duck_knife/jump/duck_knife_jump_001.png",
 					"rotated": false,
 					"trimmed": false,
 					"sourceSize": {
@@ -409,7 +409,7 @@
 					}
 				},
         {
-					"filename": "duck_pink/die/duck_pink_die_001.png",
+					"filename": "duck_knife/die/duck_knife_die_001.png",
 					"rotated": false,
 					"trimmed": false,
 					"sourceSize": {
@@ -430,28 +430,7 @@
 					}
 				},
         {
-					"filename": "duck_kitty/standing/duck_kitty.png",
-					"rotated": false,
-					"trimmed": false,
-					"sourceSize": {
-						"w": 150,
-						"h": 110
-					},
-					"spriteSourceSize": {
-						"x": 600,
-						"y": 0,
-						"w": 150,
-						"h": 110
-					},
-					"frame": {
-						"x": 600,
-						"y": 0,
-						"w": 150,
-						"h": 110
-					}
-				},
-        {
-					"filename": "duck_kitty/walk/duck_kitty_walk_001.png",
+					"filename": "duck_orange/standing/duck_orange.png",
 					"rotated": false,
 					"trimmed": false,
 					"sourceSize": {
@@ -472,7 +451,7 @@
 					}
 				},
         {
-					"filename": "duck_kitty/run/duck_kitty_run_001.png",
+					"filename": "duck_orange/walk/duck_orange_walk_001.png",
 					"rotated": false,
 					"trimmed": false,
 					"sourceSize": {
@@ -493,7 +472,7 @@
 					}
 				},
         {
-					"filename": "duck_kitty/jump/duck_kitty_jump_001.png",
+					"filename": "duck_orange/run/duck_orange_run_001.png",
 					"rotated": false,
 					"trimmed": false,
 					"sourceSize": {
@@ -514,7 +493,28 @@
 					}
 				},
         {
-					"filename": "duck_kitty/die/duck_kitty_die_001.png",
+					"filename": "duck_orange/jump/duck_orange_jump_001.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 150,
+						"h": 110
+					},
+					"spriteSourceSize": {
+						"x": 600,
+						"y": 0,
+						"w": 150,
+						"h": 110
+					},
+					"frame": {
+						"x": 600,
+						"y": 0,
+						"w": 150,
+						"h": 110
+					}
+				},
+        {
+					"filename": "duck_orange/die/duck_orange_die_001.png",
 					"rotated": false,
 					"trimmed": false,
 					"sourceSize": {
@@ -640,7 +640,7 @@
 					}
 				},
         {
-					"filename": "duck_reaper/standing/duck_reaper.png",
+					"filename": "duck_white/standing/duck_white.png",
 					"rotated": false,
 					"trimmed": false,
 					"sourceSize": {
@@ -661,7 +661,7 @@
 					}
 				},
         {
-					"filename": "duck_reaper/walk/duck_reaper_walk_001.png",
+					"filename": "duck_white/walk/duck_white_walk_001.png",
 					"rotated": false,
 					"trimmed": false,
 					"sourceSize": {
@@ -682,7 +682,7 @@
 					}
 				},
         {
-					"filename": "duck_reaper/run/duck_reaper_run_001.png",
+					"filename": "duck_white/run/duck_white_run_001.png",
 					"rotated": false,
 					"trimmed": false,
 					"sourceSize": {
@@ -703,7 +703,7 @@
 					}
 				},
         {
-					"filename": "duck_reaper/jump/duck_reaper_jump_001.png",
+					"filename": "duck_white/jump/duck_white_jump_001.png",
 					"rotated": false,
 					"trimmed": false,
 					"sourceSize": {
@@ -724,7 +724,7 @@
 					}
 				},
         {
-					"filename": "duck_reaper/die/duck_reaper_die_001.png",
+					"filename": "duck_white/die/duck_white_die_001.png",
 					"rotated": false,
 					"trimmed": false,
 					"sourceSize": {
