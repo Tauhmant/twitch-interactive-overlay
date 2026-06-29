@@ -5,7 +5,7 @@
 			"format": "RGBA8888",
 			"size": {
 				"w": 1050,
-				"h": 110
+				"h": 220
 			},
 			"scale": 1,
 			"frames": [
@@ -740,6 +740,531 @@
 					"frame": {
 						"x": 900,
 						"y": 0,
+						"w": 150,
+						"h": 110
+					}
+				},
+		{
+					"filename": "duck_nebula_blue/standing/duck_nebula_blue.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 150,
+						"h": 110
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 110,
+						"w": 150,
+						"h": 110
+					},
+					"frame": {
+						"x": 0,
+						"y": 110,
+						"w": 150,
+						"h": 110
+					}
+				},
+        {
+					"filename": "duck_nebula_blue/walk/duck_nebula_blue_walk_001.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 150,
+						"h": 110
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 110,
+						"w": 150,
+						"h": 110
+					},
+					"frame": {
+						"x": 0,
+						"y": 110,
+						"w": 150,
+						"h": 110
+					}
+				},
+        {
+					"filename": "duck_nebula_blue/run/duck_nebula_blue_run_001.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 150,
+						"h": 110
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 110,
+						"w": 150,
+						"h": 110
+					},
+					"frame": {
+						"x": 0,
+						"y": 110,
+						"w": 150,
+						"h": 110
+					}
+				},
+        {
+					"filename": "duck_nebula_blue/jump/duck_nebula_blue_jump_001.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 150,
+						"h": 110
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 110,
+						"w": 150,
+						"h": 110
+					},
+					"frame": {
+						"x": 0,
+						"y": 110,
+						"w": 150,
+						"h": 110
+					}
+				},
+        {
+					"filename": "duck_nebula_blue/die/duck_nebula_blue_die_001.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 150,
+						"h": 110
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 110,
+						"w": 150,
+						"h": 110
+					},
+					"frame": {
+						"x": 0,
+						"y": 110,
+						"w": 150,
+						"h": 110
+					}
+				},
+		{
+					"filename": "duck_nebula_darkblue_w_stars/standing/duck_nebula_darkblue_w_stars.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 150,
+						"h": 110
+					},
+					"spriteSourceSize": {
+						"x": 150,
+						"y": 110,
+						"w": 150,
+						"h": 110
+					},
+					"frame": {
+						"x": 150,
+						"y": 110,
+						"w": 150,
+						"h": 110
+					}
+				},
+        {
+					"filename": "duck_nebula_darkblue_w_stars/walk/duck_nebula_darkblue_w_stars_walk_001.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 150,
+						"h": 110
+					},
+					"spriteSourceSize": {
+						"x": 150,
+						"y": 110,
+						"w": 150,
+						"h": 110
+					},
+					"frame": {
+						"x": 150,
+						"y": 110,
+						"w": 150,
+						"h": 110
+					}
+				},
+        {
+					"filename": "duck_nebula_darkblue_w_stars/run/duck_nebula_darkblue_w_stars_run_001.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 150,
+						"h": 110
+					},
+					"spriteSourceSize": {
+						"x": 150,
+						"y": 110,
+						"w": 150,
+						"h": 110
+					},
+					"frame": {
+						"x": 150,
+						"y": 110,
+						"w": 150,
+						"h": 110
+					}
+				},
+        {
+					"filename": "duck_nebula_darkblue_w_stars/jump/duck_nebula_darkblue_w_stars_jump_001.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 150,
+						"h": 110
+					},
+					"spriteSourceSize": {
+						"x": 150,
+						"y": 110,
+						"w": 150,
+						"h": 110
+					},
+					"frame": {
+						"x": 150,
+						"y": 110,
+						"w": 150,
+						"h": 110
+					}
+				},
+        {
+					"filename": "duck_nebula_darkblue_w_stars/die/duck_nebula_darkblue_w_stars_die_001.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 150,
+						"h": 110
+					},
+					"spriteSourceSize": {
+						"x": 150,
+						"y": 110,
+						"w": 150,
+						"h": 110
+					},
+					"frame": {
+						"x": 150,
+						"y": 110,
+						"w": 150,
+						"h": 110
+					}
+				},
+		{
+					"filename": "duck_nebula_orange/standing/duck_nebula_orange.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 150,
+						"h": 110
+					},
+					"spriteSourceSize": {
+						"x": 300,
+						"y": 110,
+						"w": 150,
+						"h": 110
+					},
+					"frame": {
+						"x": 300,
+						"y": 110,
+						"w": 150,
+						"h": 110
+					}
+				},
+        {
+					"filename": "duck_nebula_orange/walk/duck_nebula_orange_walk_001.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 150,
+						"h": 110
+					},
+					"spriteSourceSize": {
+						"x": 300,
+						"y": 110,
+						"w": 150,
+						"h": 110
+					},
+					"frame": {
+						"x": 300,
+						"y": 110,
+						"w": 150,
+						"h": 110
+					}
+				},
+        {
+					"filename": "duck_nebula_orange/run/duck_nebula_orange_run_001.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 150,
+						"h": 110
+					},
+					"spriteSourceSize": {
+						"x": 300,
+						"y": 110,
+						"w": 150,
+						"h": 110
+					},
+					"frame": {
+						"x": 300,
+						"y": 110,
+						"w": 150,
+						"h": 110
+					}
+				},
+        {
+					"filename": "duck_nebula_orange/jump/duck_nebula_orange_jump_001.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 150,
+						"h": 110
+					},
+					"spriteSourceSize": {
+						"x": 300,
+						"y": 110,
+						"w": 150,
+						"h": 110
+					},
+					"frame": {
+						"x": 300,
+						"y": 110,
+						"w": 150,
+						"h": 110
+					}
+				},
+        {
+					"filename": "duck_nebula_orange/die/duck_nebula_orange_die_001.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 150,
+						"h": 110
+					},
+					"spriteSourceSize": {
+						"x": 300,
+						"y": 110,
+						"w": 150,
+						"h": 110
+					},
+					"frame": {
+						"x": 300,
+						"y": 110,
+						"w": 150,
+						"h": 110
+					}
+				},
+		{
+					"filename": "duck_nebula_purple/standing/duck_nebula_purple.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 150,
+						"h": 110
+					},
+					"spriteSourceSize": {
+						"x": 450,
+						"y": 110,
+						"w": 150,
+						"h": 110
+					},
+					"frame": {
+						"x": 450,
+						"y": 110,
+						"w": 150,
+						"h": 110
+					}
+				},
+        {
+					"filename": "duck_nebula_purple/walk/duck_nebula_purple_walk_001.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 150,
+						"h": 110
+					},
+					"spriteSourceSize": {
+						"x": 450,
+						"y": 110,
+						"w": 150,
+						"h": 110
+					},
+					"frame": {
+						"x": 450,
+						"y": 110,
+						"w": 150,
+						"h": 110
+					}
+				},
+        {
+					"filename": "duck_nebula_purple/run/duck_nebula_purple_run_001.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 150,
+						"h": 110
+					},
+					"spriteSourceSize": {
+						"x": 450,
+						"y": 110,
+						"w": 150,
+						"h": 110
+					},
+					"frame": {
+						"x": 450,
+						"y": 110,
+						"w": 150,
+						"h": 110
+					}
+				},
+        {
+					"filename": "duck_nebula_purple/jump/duck_nebula_purple_jump_001.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 150,
+						"h": 110
+					},
+					"spriteSourceSize": {
+						"x": 450,
+						"y": 110,
+						"w": 150,
+						"h": 110
+					},
+					"frame": {
+						"x": 450,
+						"y": 110,
+						"w": 150,
+						"h": 110
+					}
+				},
+        {
+					"filename": "duck_nebula_purple/die/duck_nebula_purple_die_001.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 150,
+						"h": 110
+					},
+					"spriteSourceSize": {
+						"x": 450,
+						"y": 110,
+						"w": 150,
+						"h": 110
+					},
+					"frame": {
+						"x": 450,
+						"y": 110,
+						"w": 150,
+						"h": 110
+					}
+				},
+		{
+					"filename": "duck_nebula_white/standing/duck_nebula_white.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 150,
+						"h": 110
+					},
+					"spriteSourceSize": {
+						"x": 600,
+						"y": 110,
+						"w": 150,
+						"h": 110
+					},
+					"frame": {
+						"x": 600,
+						"y": 110,
+						"w": 150,
+						"h": 110
+					}
+				},
+        {
+					"filename": "duck_nebula_white/walk/duck_nebula_white_walk_001.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 150,
+						"h": 110
+					},
+					"spriteSourceSize": {
+						"x": 600,
+						"y": 110,
+						"w": 150,
+						"h": 110
+					},
+					"frame": {
+						"x": 600,
+						"y": 110,
+						"w": 150,
+						"h": 110
+					}
+				},
+        {
+					"filename": "duck_nebula_white/run/duck_nebula_white_run_001.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 150,
+						"h": 110
+					},
+					"spriteSourceSize": {
+						"x": 600,
+						"y": 110,
+						"w": 150,
+						"h": 110
+					},
+					"frame": {
+						"x": 600,
+						"y": 110,
+						"w": 150,
+						"h": 110
+					}
+				},
+        {
+					"filename": "duck_nebula_white/jump/duck_nebula_white_jump_001.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 150,
+						"h": 110
+					},
+					"spriteSourceSize": {
+						"x": 600,
+						"y": 110,
+						"w": 150,
+						"h": 110
+					},
+					"frame": {
+						"x": 600,
+						"y": 110,
+						"w": 150,
+						"h": 110
+					}
+				},
+        {
+					"filename": "duck_nebula_white/die/duck_nebula_white_die_001.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 150,
+						"h": 110
+					},
+					"spriteSourceSize": {
+						"x": 600,
+						"y": 110,
+						"w": 150,
+						"h": 110
+					},
+					"frame": {
+						"x": 600,
+						"y": 110,
 						"w": 150,
 						"h": 110
 					}
